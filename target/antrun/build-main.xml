@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <echo message="unzip archive"/>
-  <unzip src="/Users/j.ward/projects/webjars/susy/target/2.1.1.zip" dest="/Users/j.ward/projects/webjars/susy/target"/>
-  <echo message="moving resources"/>
-  <move file="/Users/j.ward/projects/webjars/susy/target/susy-2.1.1/sass" todir="/Users/j.ward/projects/webjars/susy/target/classes/META-INF/resources/webjars/susy/2.1.1"/>
-</target>
-</project>
