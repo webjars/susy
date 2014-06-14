@@ -2,8 +2,8 @@
 <project name="maven-antrun-" default="main"  >
 <target name="main">
   <echo message="unzip archive"/>
-  <unzip dest="/Users/aljohnson56/projects/susy/target" src="/Users/aljohnson56/projects/susy/target/2.1.1.zip"/>
+  <unzip src="/Users/j.ward/projects/webjars/susy/target/2.1.1.zip" dest="/Users/j.ward/projects/webjars/susy/target"/>
   <echo message="moving resources"/>
-  <move todir="/Users/aljohnson56/projects/susy/target/classes/META-INF/resources/webjars/susy/2.1.1" file="/Users/aljohnson56/projects/susy/target/susy-2.1.1/sass"/>
+  <move file="/Users/j.ward/projects/webjars/susy/target/susy-2.1.1/sass" todir="/Users/j.ward/projects/webjars/susy/target/classes/META-INF/resources/webjars/susy/2.1.1"/>
 </target>
 </project>
